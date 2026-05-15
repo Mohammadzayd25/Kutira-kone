@@ -11,7 +11,11 @@ class AppUser {
   final String? phone;
   final DateTime createdAt;
 
+  /// Returns the shop name if available, otherwise the user's personal name.
+  String get displayName => shopName != null && shopName!.isNotEmpty ? shopName! : name;
+
   AppUser({
+
     required this.id,
     required this.name,
     required this.email,
