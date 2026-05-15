@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+/// [AppTheme] defines the visual identity of Kutira Kone.
+/// 
+/// It uses a premium palette inspired by cottage industries:
+/// * Cream/Beige: Represents natural raw cotton and canvas.
+/// * Charcoal: Provides high contrast and premium readability.
+/// * Gold: Used for key accents and sustainability milestones.
 class AppTheme {
+
   // Premium Textile Palette
   static const Color cream = Color(0xFFFAF9F6); // Canvas/Cotton White
   static const Color beige = Color(0xFFF2F0E9);
