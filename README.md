@@ -47,3 +47,40 @@ lib/
 +-- widgets/        # Reusable UI components
 ```
 
+
+## ?? Installation & Setup
+
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (v3.10+)
+- [Dart SDK](https://dart.dev/get-dart)
+- Firebase Account (for backend services)
+
+### Setup Steps
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mohammadzayd25/Kutira-kone.git
+   ```
+2. **Navigate to project folder:**
+   ```bash
+   cd Kutira-kone
+   ```
+3. **Install dependencies:**
+   ```bash
+   flutter pub get
+   ```
+4. **Configure Firebase:**
+   - Create a project on [Firebase Console](https://console.firebase.google.com/).
+   - Add Android/iOS apps and download `google-services.json` / `GoogleService-Info.plist`.
+   - Place them in the respective `android/app` and `ios/Runner` folders.
+5. **Run the app:**
+   ```bash
+   flutter run
+   ```
+
+---
+
+## ?? Impact Analysis
+Our integrated sustainability dashboard helps users track their environmental contribution.
+
+![Impact](./screenshots/impact.png)
+
