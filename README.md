@@ -84,3 +84,18 @@ Our integrated sustainability dashboard helps users track their environmental co
 
 ![Impact](./screenshots/impact.png)
 
+
+## ?? Roadmap
+- [ ] **AI-Based Fabric Detection**: Automatic categorization of fabric types from photos.
+- [ ] **Blockchain Integration**: Transparent tracking of fabric origin and lifecycle.
+- [ ] **Global Marketplace**: Expanding from local exchanges to international eco-shipping.
+
+## ?? Contributing
+Contributions are welcome! Please fork the repo and submit a PR.
+
+## ?? License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+Created with ?? by [Mohammad Zayd](https://github.com/Mohammadzayd25)
+
