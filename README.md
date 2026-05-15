@@ -23,3 +23,27 @@ To build a circular economy for the textile industry, reducing landfill waste an
 
 ![Features](./screenshots/listing.png)
 
+
+## ?? Tech Stack
+- **Frontend**: Flutter (Mobile, Web, Desktop)
+- **State Management**: Provider
+- **Backend**: Firebase (Authentication, Cloud Firestore)
+- **Navigation**: GoRouter
+- **Design System**: Custom Theme with Google Fonts
+- **Assets**: Font Awesome, Custom Vector Illustrations
+
+---
+
+## ?? Project Structure
+```text
+lib/
++-- models/         # Data structures and models
++-- screens/        # Full-page UI screens
+¦   +-- artisan/    # Artisan-specific dashboards
+¦   +-- tailor/     # Tailor-specific modules
++-- services/       # API and Backend logic (Firebase)
++-- theme/          # Custom branding and design tokens
++-- utils/          # Helper functions and utilities
++-- widgets/        # Reusable UI components
+```
+
